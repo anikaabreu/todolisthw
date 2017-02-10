@@ -8,9 +8,19 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
+
+group :development do #when specify development in group, heroku will see that you only want to use it during development and not in heroku
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
+end
+
+#when you edit a gemfile, bundle in the terminal
+group :production do
+  gem 'pg'
+end
+
+
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
