@@ -1,14 +1,28 @@
 // Place all the styles related to the todo_items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-strong {
-  font-size: 40px;
-  color: green;
 
+table {
+// display: flex;
+background: rgba(255,255,255, 0.5);
+// opacity: 0.5;
+// height: 5em;
+width: 100%;
+font-family: 'Josefin Slab', serif;
+}
+
+.h1 {
+  text-shadow: 2px 2px olive;
+  color:#576943;
+  font-family: 'Josefin Slab', serif;
 }
 
 body {
-  background-color: black;
+  font-family: 'Josefin Slab', serif;
   opacity: .75;
   border: 0 0.5em;
+  font-size: 30px;
+  color: #8A9170;
+  background-image: url('https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/VLY/image/Ijxbse4v8vDhf5CIqWdLf0UDSIw.jpg');
+  background-size: cover;
 }
